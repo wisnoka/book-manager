@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "bookmanage.jwt",
+      "type": "com.yll.bookmanager.util.JwtUtils",
+      "sourceType": "com.yll.bookmanager.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bookmanage.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.yll.bookmanager.util.JwtUtils"
+    },
+    {
+      "name": "bookmanage.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.yll.bookmanager.util.JwtUtils"
+    },
+    {
+      "name": "bookmanage.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.yll.bookmanager.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
