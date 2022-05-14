@@ -95,6 +95,14 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
+<!--        解决高版本java不适用的问题，参考https://blog.csdn.net/qiqibei666/article/details/103018960/-->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
